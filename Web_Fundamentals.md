@@ -95,4 +95,4 @@ Vertical scaling leverages concurrent programming on a single physical machine. 
 5. Use meta tags in your content.
 6. Stay up to date on the latest SEO techniques.
 - Resources
-1. https://neilpatel.com/what-is-seo/
+https://neilpatel.com/what-is-seo/
