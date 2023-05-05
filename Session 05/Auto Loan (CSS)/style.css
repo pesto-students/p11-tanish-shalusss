@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+    /* Your code goes here */
+
+h1{
+    color: #444;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+th{
+    color: #777777;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #f1f1f1;
+}
+
+td{
+    color: #444444;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 20px 10px;
+    text-align: left;
+    border: 1px solid #f1f1f1;
+}
+
+.container{
+    margin: 5px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.offer{
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 400px;
+    margin: 4px;
+}
+
+.offerTitle{
+    background-color: #00b3b3;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0;
+}
+
+.offerContents{
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.finalValue{
+    color: #2222ff;
+    font-weight: bold;
+}
