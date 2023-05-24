@@ -1,0 +1,39 @@
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 3em;
+ }
+
+ #answer {
+    color: red;
+    width: 100px;
+    animation-fill-mode: forwards;
+    animation-name: moveFration;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+ }
+
+ #question {
+    transition-timing-function: ease-in-out;
+    transition: transform 0.5s;
+ }
+
+ #question:hover {
+    transform: scale(0.9);
+ }
+ 
+ span {
+    display: inline-block;         
+ }
+
+
+ @keyframes moveFration {
+    0%{
+        transform: translate(-355px,60px);
+    }
+    50%{
+        transform: translate(0px,60px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+ }
